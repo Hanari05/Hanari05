@@ -28,7 +28,7 @@
 - [🍥 Fast Food Order Web – Thiết kế Wesite bán hàng đồ ăn nhanh](https://github.com/gia-uy/fast_food.git)
 
 ## 📇 Trang web của tôi
-- [🎗 Profile của tôi](https://hanari05.github.io/profile/)
+- [🎗 Profile của tôi](https://hanari05.github.io/Hanari05/)
 
 ---
 
