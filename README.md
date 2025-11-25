@@ -1,7 +1,7 @@
 # 👋 Xin chào, tôi là Nguyễn Ngọc Gia Hân 
 
 ## 📌 Thông tin cơ bản  
-- 🎓 Sinh viên: Công nghệ Đa phương tiện - D23
+- 🎓 Sinh viên: Công nghệ Đa phương tiện - Phát triển ứng dụng Đa phương tiện
 - 🏫 Trường: Học viện Công nghệ Bưu chính Viễn thông
 - 📧 Email: giahan1835@gmail.com
 - 📧 Email 2: n23dcpt019@student.ptithcm.edu.vn
