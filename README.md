@@ -34,4 +34,4 @@
 
 ---
 
-# ✨ *Cảm ơn đã ghé thăm trang GitHub của tôi!*  
+✨ *Cảm ơn đã ghé thăm trang GitHub của tôi!*  
