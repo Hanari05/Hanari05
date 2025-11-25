@@ -13,7 +13,7 @@
 - 🎵 Nghe nhạc và xem phim  
 
 ## 🚀 Kỹ năng  
-- Ngôn ngữ: C, C++, Java, Python  
+- Ngôn ngữ: C, C++, Java  
 - Web: HTML, CSS, JavaScript  
 - Công cụ:
 ### [![My Skills](https://skillicons.dev/icons?i=html,css,js,cpp,github,mysql,vscode,figma,photoshop,premiere,aftereffects)](https://skillicons.dev)
