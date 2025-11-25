@@ -16,7 +16,7 @@
 - Ngôn ngữ: C, C++, Java, Python  
 - Web: HTML, CSS, JavaScript  
 - Công cụ:
-### [![My Skills](https://skillicons.dev/icons?i=html,css,js,cpp,vscode,github,mysql,figma,photoshop,premiere,aftereffects)](https://skillicons.dev)
+### [![My Skills](https://skillicons.dev/icons?i=html,github,mysql,css,js,cpp,vscode,figma,photoshop,premiere,aftereffects)](https://skillicons.dev)
 
 ## 🏆 Mục tiêu
 - Trở thành một Kỹ sư công nghệ phần mềm chuyên nghiệp
