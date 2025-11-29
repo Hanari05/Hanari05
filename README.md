@@ -28,6 +28,7 @@
 - [🎧 Music Streaming Web App – Demo ứng dụng web phát nhạc / streaming nhạc](https://github.com/Hanari05/music-streaming-spec.git)
 - [🍥 Fast Food Order Web – Thiết kế Wesite bán hàng đồ ăn nhanh](https://github.com/gia-uy/fast_food.git)
 - [💼 Timekeeping Project – Mini App Quản Lý Chấm Công Nhân Viên](https://github.com/Lanne-0402/Timekeeping-Gr3)
+- [🍰 Cake Store Web – Thiết kế Wesite cửa hàng đồ ngọt](https://github.com/Lanne-0402/Web-Cake-Store.git)
 
 ## 📇 Trang web của tôi
 - [🎗 Profile của tôi](https://hanari05.github.io/Hanari05/)
