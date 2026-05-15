@@ -30,6 +30,7 @@
 - [💼 Timekeeping Project – Mini App Quản Lý Chấm Công Nhân Viên](https://github.com/Lanne-0402/Timekeeping-Gr3)
 - [🍰 Cake Store Web – Thiết kế Wesite cửa hàng đồ ngọt](https://github.com/Lanne-0402/Web-Cake-Store.git)
 - [🤖🖥 Teachable Machine - AI nhận diện qua Webcam](https://github.com/Hanari05/Techable_Machine_Proj.git)
+- [🎛 Handpan Music Application Programming - Hệ thống quản lý files âm thanh](https://github.com/Hanari05/HandpanMusic-App.git)
 
 ## 📇 Trang web của tôi
 - [🎗 Profile của tôi](https://hanari05.github.io/Hanari05/)
