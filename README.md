@@ -32,7 +32,7 @@
 - [🤖🖥 Teachable Machine - AI nhận diện qua Webcam](https://github.com/Hanari05/Techable_Machine_Proj.git)
 - [🎛 Handpan Music Application Programming - Hệ thống quản lý files âm thanh Handpan](https://github.com/Hanari05/HandpanMusic-App.git)
 - [🚗 Ứng dụng đếm số lượng xe và phân loại phương tiện giao thông](https://github.com/Hanari05/vehicle-identification-counting.git)
-- [🎨 Thiết kế cửa sổ vẽ hình cơ bản trên hệ trục tọa độ 2D & 3D](https://github.com/Lanne-0402/Doan_Kythuatdohoa_N5_LanHanDiepUy.git)
+- [🎨 Web vẽ hình cơ bản trên hệ trục tọa độ 2D & 3D](https://github.com/Lanne-0402/Doan_Kythuatdohoa_N5_LanHanDiepUy.git)
   
 ## 📇 Trang web của tôi
 - [🎗 Profile của tôi](https://hanari05.github.io/Hanari05/)
