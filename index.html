@@ -3,20 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nguyễn Ngọc Gia Hân | Portfolio</title>
+  <title>Nguyễn Ngọc Gia Hân | Game Portfolio</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <h1>Nguyễn Ngọc Gia Hân</h1>
-    <h2>Senior Software Engineer | Game Designer 🕹🖥</h2>
-    <p>
-      Sinh viên năm ba ngành Công nghệ Đa phương tiện chuyên ngành <b>Phát triển ứng dụng</b> tại Học viện Công nghệ Bưu chính Viễn thông (PTIT).
-      Mục tiêu tạo ra những ứng dụng và trang web giải trí cùng với những con game hấp dẫn.
-    </p>
+  <header class="hero">
+    <div class="hero-noise"></div>
+    <div class="hero-content">
+      <p class="eyebrow">Game QA • Game Design • Multimedia Tech</p>
+      <h1>Nguyễn Ngọc Gia Hân</h1>
+      <h2>Game Tester / Game Designer Fresher</h2>
+      <p class="hero-desc">
+        Sinh viên năm ba ngành <b>Công nghệ Đa phương tiện</b>, chuyên ngành <b>Phát triển ứng dụng</b> tại PTIT.
+        Mình yêu cách game kể chuyện, dẫn dắt người chơi và biến ý tưởng thành trải nghiệm tương tác.
+      </p>
 
-    <nav>
+      <div class="hero-actions">
+        <a class="btn-primary" href="#Portfolio" onclick="openTabFromLink(event, 'Portfolio')">
+          <i class="fa-solid fa-gamepad"></i> Xem dự án
+        </a>
+        <a class="btn-secondary" href="mailto:giahan1835@gmail.com">
+          <i class="fa-solid fa-paper-plane"></i> Liên hệ
+        </a>
+      </div>
+    </div>
+
+    <nav aria-label="Điều hướng portfolio">
       <button class="tablink active" onclick="openTab(event, 'Home')">Home</button>
       <button class="tablink" onclick="openTab(event, 'About')">About</button>
       <button class="tablink" onclick="openTab(event, 'Resume')">Resume</button>
@@ -25,134 +38,324 @@
     </nav>
   </header>
 
-  <!-- HOME -->
-  <section id="Home" class="tabcontent active-tab">
-    <h3>Welcome!</h3>
-    <p>Chào mừng đến với website của Hân! — Đây là website thuộc dự án môn học <b>Nhập môn Công nghệ phần mềm.</b><br><br>  
-      Website là một trang thông tin cơ bản về bản thân, nơi tôi chia sẻ kinh nghiệm học tập, kỹ năng và các dự án cá nhân.<br><br>
-      Cùng tôi khám phá xem profile của tôi có gì thú vị nhé!✨
-    </p>
-    <button id="greetBtn" class="btn-primary"><i class="fa-solid fa-hand-wave"></i> Gửi lời chào</button>
-  </section>
+  <main>
+    <!-- HOME -->
+    <section id="Home" class="tabcontent active-tab">
+      <div class="section-heading">
+        <span class="number">01</span>
+        <h3>Welcome to my pink-black game corner</h3>
+      </div>
+      <p>
+        Đây là portfolio nhỏ của Hân — nơi mình gom các dự án học thuật, AI, testing, UI và multimedia theo hướng mình đang theo đuổi:
+        <b>Game Tester</b> và <b>Game Designer</b>.
+      </p>
 
-  <!-- ABOUT -->
-  <section id="About" class="tabcontent">
-    <h3><b>VỀ BẢN THÂN TÔI 🎈</b></h3>
-    <p>
-      Tôi là một người đáng tin cậy và sáng tạo, có tinh thần trách nhiệm cao và khả năng làm việc nhóm tốt.
-      Tôi thích nghi tốt với thử thách, thích tìm hiểu công nghệ mới và làm việc hiệu quả trong thời hạn.<br><br>
-      Tôi phân tích vấn đề bằng mô hình và tư duy thiết kế, biến các ý tưởng trở thành sản phẩm hoàn thiện; và với đam mê thiết kế game và phát triển web, tôi luôn mong muốn tạo ra những trải nghiệm kỹ thuật số hấp dẫn.<br>
-      Hiện tôi đang theo học Kỹ sư ngành Công nghệ Đa phương tiện tại Học viện Công nghệ Bưu chính Viễn thông (PTIT)<br><br>
-      <b>Tôi rất mong muốn được đóng góp kỹ năng và nhiệt huyết của mình cho một đội ngũ năng động. 
-        Hãy kết nối và cùng nhau tạo nên những điều tuyệt vời!</b>
-    </p>
+      <div class="focus-grid">
+        <article class="focus-card">
+          <i class="fa-solid fa-bug"></i>
+          <h4>Game Testing</h4>
+          <p>Test case, bug report, kiểm tra flow, logic hệ thống và trải nghiệm người dùng.</p>
+        </article>
+        <article class="focus-card">
+          <i class="fa-solid fa-dice-d20"></i>
+          <h4>Game Design</h4>
+          <p>Gameplay loop, level idea, storytelling, reward system và player experience.</p>
+        </article>
+        <article class="focus-card">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <h4>Creative Tech</h4>
+          <p>Kết hợp AI, UI/UX, web, đồ họa và multimedia để tạo sản phẩm có cá tính.</p>
+        </article>
+      </div>
 
-    <h3><b>SỞ THÍCH 🎀</b></h3>
-    <ul>
-      <li>🕹 Chơi game, khám phá cốt truyện và cấu trúc hoạt động qua từng màn chơi.</li>
-      <li>📽 Xem phim và theo dõi các hoạt động của các show truyền hình.</li>
-      <li>📸 Chụp ảnh và quay phim phong cảnh.</li>
-      <li>📱 Tìm hiểu các thiết bị công nghệ số - AI.</li>
-    </ul>
-  </section>
+      <button id="greetBtn" class="btn-pixel">
+        <i class="fa-solid fa-heart"></i> Gửi lời chào
+      </button>
+    </section>
 
-  <!-- RESUME -->
-  <section id="Resume" class="tabcontent">
-    <h3 class="highlight">KINH NGHIỆM 📚</h3>
-    <p><b>Sinh viên chuyên ngành Phát triển ứng dụng</b> | PTIT — <i>2023–2028</i></p>
-    <ul>
-      <li>Học và thực hành các môn chuyên ngành ứng dụng - web.</li>
-      <li>Có kinh nghiệm sử dụng các phần mềm:
-	  <span class="inline-tools">
-	  	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" title="Visual Studio Code">
-		  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" title="MySQL">
-		  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" title="GitHub">
-		  <img src="https://cdn.simpleicons.org/jira/0052CC" alt="Jira" title="Jira">
-		  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" title="Figma">
-		  <img src="https://cdn.simpleicons.org/sketchup/005F9E" alt="SketchUp" data-name="SketchUp", title="SketchUp">
-		  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" alt="Photoshop" title="Photoshop">
-		  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-plain.svg" alt="Premiere Pro" title="Premiere Pro">
-		  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-plain.svg" alt="After Effects" title="After Effects">
-	  </li>
-      <li>Tham gia các dự án học thuật và đồ án nghiên cứu.</li>
-      <li>Làm việc nhóm và hợp tác xây dựng đồ án.</li>
-      <li>Nghiên cứu và tìm hiểu chuyên sâu ứng dụng phần mềm và đa phương tiện.</li>
-    </ul>
+    <!-- ABOUT -->
+    <section id="About" class="tabcontent">
+      <div class="section-heading">
+        <span class="number">02</span>
+        <h3>About me</h3>
+      </div>
 
-    <h3 class="highlight">HỌC VẤN 🎓</h3>
-    <p><b>Công nghệ Đa phương tiện</b> | Học viện Công nghệ Bưu chính viễn thông (PTIT) — <i>2023–2028</i></p>
-    <ul>
-      <li>Môn chuyên ngành nổi bật: Phát triển web, Thiết kế UI/UX, Thiết kế đồ họa, Truyền thông kỹ thuật số..</li>
-      <li>Hoạt động: tham gia các hoạt động hackathons và nghiên cứu học thuật, tham gia vào câu lạc bộ truyền thông.</li>
-      <li>GPA: 3.3/4.0 | ĐRL: 80/100</li>
-    </ul>
+      <p>
+        Mình là một người thích quan sát cách sản phẩm vận hành: từ giao diện, luồng người dùng, logic xử lý cho đến cảm xúc mà sản phẩm tạo ra.
+        Khi chơi game, mình không chỉ quan tâm “game có vui không”, mà còn để ý vì sao một màn chơi cuốn hút, vì sao UI dễ hiểu,
+        hoặc vì sao một lỗi nhỏ có thể làm trải nghiệm bị gãy.
+      </p>
 
-    <h3 class="highlight">KỸ NĂNG 🔋</h3>
-    <ul>
-      <li>Kỹ năng làm việc nhóm và hợp tác ⭐⭐⭐⭐⭐</li>
-      <li>Kỹ năng giải quyết vấn đề ⭐⭐</li>
-      <li>Khả năng thích nghi ⭐⭐⭐</li>
-      <li>Kỹ năng quản lý thời gian ⭐⭐</li>
-      <li>Sáng tạo - khả năng suy nghĩ ra những ý tưởng độc đáo góp phần vào các dự án ⭐⭐⭐⭐</li>
-    </ul>
-  </section>
+      <p>
+        Nền tảng Phát triển ứng dụng giúp mình hiểu quy trình xây dựng phần mềm, còn các dự án AI, testing, web và đồ họa giúp mình có góc nhìn đa chiều hơn khi bước vào ngành game.
+        Mục tiêu hiện tại của mình là phát triển theo hướng <b>Game QA Tester</b>, sau đó mở rộng sang <b>Game Design</b>.
+      </p>
 
-  <!-- PORTFOLIO -->
-  <section id="Portfolio" class="tabcontent">
-    <h3>Dự án 📝</h3>
-    <p>Đây là một số dự án của tôi:</p>
-    <ul>
-      <li><b>Mini-App quản lý chấm công nhân viên</b> — <a href="https://github.com/Lanne-0402/Nhap-mon-CNPM/tree/main"><i class="fab fa-github"></i></a></li>
-      <li><b>Ứng dụng web phát nhạc / streaming nhạc</b> — <a href="https://github.com/Hanari05/music-streaming-spec.git"><i class="fab fa-github"></i></a></li>
-      <li><b>Thiết kế ứng dụng website bán hàng đồ ăn nhanh</b> — <a href="https://github.com/gia-uy/fast_food.git"><i class="fab fa-github"></i></a></li>
-	  <li><b>Website cửa hàng đồ ngọt</b> — <a href="https://github.com/Lanne-0402/Web-Cake-Store.git"><i class="fab fa-github"></i></a></li>
-		<li><b>AI nhận diện qua Webcam</b> — <a href="https://github.com/Hanari05/Techable_Machine_Proj.git"><i class="fab fa-github"></i></a></li>
-		<li><b>Phần mềm hệ thống quản lý files âm thanh Handpan</b> — <a href="https://github.com/Hanari05/HandpanMusic-App.git"><i class="fab fa-github"></i></a></li>
-      <li><b>Xây dựng giao diện web bán len</b> — <a href="https://www.figma.com/design/vDpx3hMocaRRu7jhOo7gZA/Con-Ru%E1%BB%93i-Ch%C6%A1i-Len?node-id=0-1&t=eBtGqsO267QBI5C6-1"><i class="fab fa-figma"></i></a></li>
-      <li><b>Xem đồ án MV môn học của tôi </b><em>(chế độ bạn bè)</em> — <a href="https://www.facebook.com/share/v/1ESKvxra43/"><i class="fab fa-facebook"></i></a></li>
-    </ul>
-  </section>
-	
-  <!-- CONTACT -->
-  <section id="Contact" class="tabcontent">
-    <h3>Liên hệ 📧</h3>
-    <p>
-      Nguyễn Ngọc Gia Hân<br>
-      <li>(+84) 396 763 655<br></li>
-      <li><a href="mailto:giahan1835@gmail.com">giahan1835@gmail.com</a></li>
-    </p>
-    <p><em>Hoặc gửi tin nhắn cho tôi qua form dưới đây:</em></p>
+      <div class="quote-box">
+        <p>“I want to design experiences that feel playful, clear, emotional — and a little bit magical.”</p>
+      </div>
 
-    <form action="https://formsubmit.co/giahan1835@gmail.com" method="POST" class="contact-form">
-      <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_subject" value="Tin nhắn mới từ Portfolio của bạn!">
-      <input type="hidden" name="_template" value="table">
+      <h4 class="mini-title">Sở thích</h4>
+      <ul class="clean-list">
+        <li>🕹 Chơi game và phân tích gameplay, UI, nhiệm vụ, cốt truyện.</li>
+        <li>🎬 Xem phim, show giải trí và quan sát cách kể chuyện bằng hình ảnh.</li>
+        <li>📸 Chụp ảnh phong cảnh, bầu trời và mood màu nhẹ nhàng.</li>
+        <li>🤖 Tìm hiểu AI, computer vision và các ứng dụng tương tác.</li>
+      </ul>
+    </section>
 
-      <input type="text" name="Tên người gửi" placeholder="Tên của bạn" required>
-      <input type="email" name="Email người gửi" placeholder="Email của bạn" required>
-      <textarea name="Nội dung" placeholder="Nội dung tin nhắn" rows="5" required></textarea>
+    <!-- RESUME -->
+    <section id="Resume" class="tabcontent">
+      <div class="section-heading">
+        <span class="number">03</span>
+        <h3>Resume</h3>
+      </div>
 
-      <button type="submit">Gửi tin nhắn</button>
-    </form>
-  </section>
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <h4>Multimedia Technology Student</h4>
+          <p class="muted">PTIT — 2023–2028</p>
+          <ul>
+            <li>Chuyên ngành Phát triển ứng dụng, tập trung vào web, UI/UX, phần mềm và dự án đa phương tiện.</li>
+            <li>Thực hiện các đồ án liên quan đến testing, AI/computer vision, web application và đồ họa tương tác.</li>
+            <li>Định hướng nghề nghiệp: Game Tester / Game QA / Game Designer Fresher.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <h4>Academic Project Contributor</h4>
+          <p class="muted">Application Development • QA • AI • Multimedia</p>
+          <ul>
+            <li>Tham gia phân tích yêu cầu, viết tài liệu, kiểm thử tính năng và xây dựng demo sản phẩm.</li>
+            <li>Có kinh nghiệm viết test case, test API/UI, kiểm tra business flow và ghi nhận lỗi.</li>
+            <li>Biết triển khai mô hình YOLOv8, xử lý dữ liệu ảnh/video và đánh giá kết quả dự án AI.</li>
+          </ul>
+        </article>
+      </div>
+
+      <h4 class="mini-title">Skill stack</h4>
+      <div class="skill-cloud">
+        <span>Game Testing</span>
+        <span>Manual Testing</span>
+        <span>Bug Reporting</span>
+        <span>Test Case Design</span>
+        <span>Gameplay Analysis</span>
+        <span>Game Design</span>
+        <span>Storytelling</span>
+        <span>UI/UX Thinking</span>
+        <span>Python</span>
+        <span>JavaScript</span>
+        <span>HTML/CSS</span>
+        <span>YOLOv8</span>
+        <span>OpenCV</span>
+        <span>Postman</span>
+        <span>Selenium</span>
+        <span>Jest</span>
+        <span>Git/GitHub</span>
+        <span>Figma</span>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="Portfolio" class="tabcontent">
+      <div class="section-heading">
+        <span class="number">04</span>
+        <h3>Selected projects</h3>
+      </div>
+      <p class="section-desc">
+        Mình ưu tiên các dự án thể hiện tư duy phù hợp với ngành game: testing, gameplay/user flow, AI interaction, UI và xử lý logic sản phẩm.
+      </p>
+
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-topline">
+            <span class="project-type">AI • Computer Vision</span>
+            <a href="https://github.com/Hanari05/vehicle-identification-counting" target="_blank" rel="noopener" aria-label="Vehicle Identification GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <h4>Vehicle Identification & Counting</h4>
+          <p>
+            Hệ thống nhận diện và đếm phương tiện bằng YOLOv8. Mình phụ trách AI/Data: chuẩn bị dataset, label ảnh, train model,
+            test file <code>best.pt</code> và phân tích kết quả nhận diện.
+          </p>
+          <div class="tags">
+            <span>YOLOv8</span><span>Python</span><span>OpenCV</span><span>Model Training</span>
+          </div>
+        </article>
+
+        <article class="project-card featured">
+          <div class="project-topline">
+            <span class="project-type">QA • Application Flow</span>
+            <a href="https://github.com/Lanne-0402/Nhap-mon-CNPM/tree/main" target="_blank" rel="noopener" aria-label="Mini app GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <h4>Mini-App Quản Lý Chấm Công</h4>
+          <p>
+            Dự án quản lý chấm công nhân viên. Mình tham gia theo hướng kiểm thử: test case, kiểm tra luồng check-in/check-out,
+            API, UI behavior và ghi nhận lỗi — nền tảng rất gần với Game QA.
+          </p>
+          <div class="tags">
+            <span>QA Testing</span><span>Postman</span><span>Selenium</span><span>Jest</span>
+          </div>
+        </article>
+
+        <article class="project-card featured">
+          <div class="project-topline">
+            <span class="project-type">Game Concept • AI Interaction</span>
+            <a href="https://github.com/Hanari05/Teachable-Machine-Proj" target="_blank" rel="noopener" aria-label="Teachable Machine GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <h4>AI Gesture Recognition Rehab Game</h4>
+          <p>
+            Ý tưởng game phục hồi chức năng dùng webcam để nhận diện cử chỉ tay. Dự án kết hợp AI gesture recognition,
+            tương tác người dùng và hướng thiết kế gameplay đơn giản cho bài tập phục hồi.
+          </p>
+          <div class="tags">
+            <span>Teachable Machine</span><span>Webcam</span><span>Gesture</span><span>Game Idea</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-topline">
+            <span class="project-type">Graphics • 3D Thinking</span>
+            <a href="https://github.com/Hanari05" target="_blank" rel="noopener" aria-label="GitHub profile">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <h4>Interactive 3D Graphics Project</h4>
+          <p>
+            Đồ án mô phỏng hình học 3D: hệ tọa độ, lưới, khối hộp, lập phương, cầu, trụ, xoay/zoom và cạnh khuất.
+            Dự án giúp mình hiểu không gian, tọa độ và visual logic — nền tảng hữu ích cho game 2D/3D.
+          </p>
+          <div class="tags">
+            <span>Python</span><span>Flask</span><span>3D Geometry</span><span>Interaction</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-topline">
+            <span class="project-type">Music • System Design</span>
+            <a href="https://github.com/Hanari05/HandpanMusic-App" target="_blank" rel="noopener" aria-label="Handpan Music App GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <h4>Handpan Music File Management</h4>
+          <p>
+            Phần mềm quản lý file âm thanh Handpan. Dự án thể hiện khả năng tổ chức dữ liệu, xử lý chức năng và xây dựng flow ứng dụng.
+          </p>
+          <div class="tags">
+            <span>C#</span><span>App Logic</span><span>File Management</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-topline">
+            <span class="project-type">Web • UI Experience</span>
+            <a href="https://github.com/Lanne-0402/Web-Cake-Store" target="_blank" rel="noopener" aria-label="Web Cake Store GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <h4>Halo Sweet Bakery Website</h4>
+          <p>
+            Website cửa hàng đồ ngọt với danh sách sản phẩm, filter/sort, responsive UI và trải nghiệm mua hàng dễ hiểu.
+            Dự án hỗ trợ tư duy UI/UX khi thiết kế menu, shop, inventory hoặc reward screen trong game.
+          </p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>UI/UX</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-topline">
+            <span class="project-type">Music Streaming • Spec</span>
+            <a href="https://github.com/Hanari05/music-streaming-spec" target="_blank" rel="noopener" aria-label="Music Streaming Spec GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <h4>Music Streaming Web Spec</h4>
+          <p>
+            Ứng dụng/spec web nghe nhạc, tập trung vào cấu trúc giao diện, trải nghiệm media và luồng người dùng.
+          </p>
+          <div class="tags">
+            <span>HTML</span><span>Media UI</span><span>UX Flow</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-topline">
+            <span class="project-type">Design • Figma</span>
+            <a href="https://www.figma.com/design/vDpx3hMocaRRu7jhOo7gZA/Con-Ru%E1%BB%93i-Ch%C6%A1i-Len?node-id=0-1&t=eBtGqsO267QBI5C6-1" target="_blank" rel="noopener" aria-label="Figma project">
+              <i class="fab fa-figma"></i>
+            </a>
+          </div>
+          <h4>UI Design — Web Bán Len</h4>
+          <p>
+            Thiết kế giao diện web bán len trên Figma, tập trung vào bố cục, màu sắc, cảm xúc thương hiệu và trải nghiệm thị giác.
+          </p>
+          <div class="tags">
+            <span>Figma</span><span>UI Design</span><span>Visual Mood</span>
+          </div>
+        </article>
+      </div>
+
+      <h4 class="mini-title">Other GitHub works</h4>
+      <div class="link-strip">
+        <a href="https://github.com/Hanari05/UML-design" target="_blank" rel="noopener">UML Design</a>
+        <a href="https://github.com/gia-uy/fast_food" target="_blank" rel="noopener">Fast Food Website</a>
+        <a href="https://github.com/Hanari05" target="_blank" rel="noopener">GitHub Profile</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="Contact" class="tabcontent">
+      <div class="section-heading">
+        <span class="number">05</span>
+        <h3>Contact</h3>
+      </div>
+
+      <div class="contact-card">
+        <p><b>Nguyễn Ngọc Gia Hân</b></p>
+        <p><i class="fa-solid fa-phone"></i> (+84) 396 763 655</p>
+        <p><i class="fa-solid fa-envelope"></i> <a href="mailto:giahan1835@gmail.com">giahan1835@gmail.com</a></p>
+        <p><i class="fa-brands fa-github"></i> <a href="https://github.com/Hanari05" target="_blank" rel="noopener">github.com/Hanari05</a></p>
+        <p><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/h%C3%A2n-nguy%E1%BB%85n-0b9b96322/" target="_blank" rel="noopener">LinkedIn Profile</a></p>
+      </div>
+
+      <form action="https://formsubmit.co/giahan1835@gmail.com" method="POST" class="contact-form">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="Tin nhắn mới từ Portfolio của bạn!">
+        <input type="hidden" name="_template" value="table">
+
+        <input type="text" name="Tên người gửi" placeholder="Tên của bạn" required>
+        <input type="email" name="Email người gửi" placeholder="Email của bạn" required>
+        <textarea name="Nội dung" placeholder="Bạn muốn nói gì với Hân nè?" rows="5" required></textarea>
+
+        <button type="submit"><i class="fa-solid fa-paper-plane"></i> Gửi tin nhắn</button>
+      </form>
+    </section>
+  </main>
 
   <footer>
     <div class="social-links">
-      <a href="https://github.com/hanari05"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/h%C3%A2n-nguy%E1%BB%85n-0b9b96322/"><i class="fab fa-linkedin"></i></a>  
-      <a href="https://www.facebook.com/giahanari"><i class="fab fa-facebook"></i></a>
-      <a href="https://www.instagram.com/hana_rinnnn/"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.pinterest.com/"><i class="fab fa-pinterest"></i></a>
+      <a href="https://github.com/Hanari05" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/h%C3%A2n-nguy%E1%BB%85n-0b9b96322/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.facebook.com/giahanari" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/hana_rinnnn/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.pinterest.com/" target="_blank" rel="noopener" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
     </div>
-    <p>© 2025 Nguyễn Ngọc Gia Hân</p>
+    <p>© 2026 Nguyễn Ngọc Gia Hân — made with pink pixels.</p>
   </footer>
 
-  <!-- Popup -->
-  <div id="popup" class="popup">
+  <div id="popup" class="popup" aria-hidden="true">
     <div class="popup-content">
-      <span class="close-btn">&times;</span>
-      <h2>🌸 Chào bạn xinh yêu 😊</h2>
-      <p>Chào mừng bạn đến với Portfolio của Hân 💕<br>Chúc bạn một ngày tuyệt vời và đầy năng lượng 🤩</p>
+      <button class="close-btn" type="button" aria-label="Đóng popup">&times;</button>
+      <h2>🌸 Hello player!</h2>
+      <p>Chào mừng đến với portfolio của Hân. Chúc bạn một ngày cute, nhiều năng lượng và ít bug nha 💕</p>
     </div>
   </div>
 
@@ -162,27 +365,45 @@
       for (let content of tabcontent) {
         content.classList.remove("active-tab");
       }
+
       const tablinks = document.getElementsByClassName("tablink");
       for (let link of tablinks) {
         link.classList.remove("active");
       }
+
       document.getElementById(tabName).classList.add("active-tab");
       evt.currentTarget.classList.add("active");
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
-    // Popup greeting
+    function openTabFromLink(evt, tabName) {
+      evt.preventDefault();
+      const targetButton = Array.from(document.getElementsByClassName("tablink"))
+        .find(button => button.textContent.trim() === tabName);
+      if (targetButton) {
+        openTab({ currentTarget: targetButton }, tabName);
+      }
+    }
+
     const popup = document.getElementById("popup");
     const greetBtn = document.getElementById("greetBtn");
     const closeBtn = document.querySelector(".close-btn");
 
     greetBtn.addEventListener("click", () => {
       popup.classList.add("show");
+      popup.setAttribute("aria-hidden", "false");
     });
+
     closeBtn.addEventListener("click", () => {
       popup.classList.remove("show");
+      popup.setAttribute("aria-hidden", "true");
     });
+
     window.addEventListener("click", (e) => {
-      if (e.target === popup) popup.classList.remove("show");
+      if (e.target === popup) {
+        popup.classList.remove("show");
+        popup.setAttribute("aria-hidden", "true");
+      }
     });
   </script>
 </body>
