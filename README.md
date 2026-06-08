@@ -26,7 +26,7 @@
 ## 📂 Dự án học tập  
 - [💼 Demo Mini App Quản Lý Chấm Công Nhân Viên](https://github.com/Lanne-0402/Nhap-mon-CNPM)
 - [🎧 Music Streaming Web App – Demo ứng dụng web phát nhạc / streaming nhạc](https://github.com/Hanari05/music-streaming-spec.git)
-- [🍥 Fast Food Order Web – Thiết kế Wesite bán hàng đồ ăn nhanh](https://github.com/gia-uy/fast_food.git)
+- [🍥 Fast Food Order Demo Web – Thiết kế Demo Wesite bán hàng đồ ăn nhanh](https://github.com/gia-uy/fast_food.git)
 - [💼 Timekeeping Project – Mini App Quản Lý Chấm Công Nhân Viên](https://github.com/Lanne-0402/Timekeeping-Gr3)
 - [🍰 Cake Store Web – Thiết kế Wesite cửa hàng đồ ngọt](https://github.com/Lanne-0402/Web-Cake-Store.git)
 - [🤖🖥 Teachable Machine - AI nhận diện qua Webcam](https://github.com/Hanari05/Techable_Machine_Proj.git)
