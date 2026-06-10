@@ -19,8 +19,8 @@
 ### [![My Skills](https://skillicons.dev/icons?i=html,css,js,cpp,github,mysql,vscode,figma)](https://skillicons.dev)
 
 ## 🏆 Mục tiêu
-- Trở thành một Kỹ sư công nghệ phần mềm chuyên nghiệp
-- Có kiến thức và đóng góp vào những dự án thực tế về phần mềm và AI
+- Trở thành Game Designer có chuyên môn và chuyên nghiệp.
+- Có kiến thức và đóng góp vào những dự án thực tế về Game và AI.
 - Phát triển và tạo ra những dự án của riêng mình
 
 ## 📂 Dự án học tập  
