@@ -33,6 +33,7 @@
 - [🚗 Ứng dụng đếm số lượng xe và phân loại phương tiện giao thông](https://github.com/Hanari05/Vehicle-identification-counting-App.git)
 - [🎨 Web vẽ hình cơ bản trên hệ trục tọa độ 2D & 3D](https://github.com/Lanne-0402/Doan_Kythuatdohoa_N5_LanHanDiepUy.git)
 - [💪💻🎮 Game Pixel 2D tích hợp AI trong phục hồi chức năng](https://github.com/Hanari05/-NCKH-GamePixel2D_PHCN.git)
+- [🐭🌱 Game Whack A Mole](https://github.com/Hanari05/WhackaMole_LTG.git)
   
 ## 📇 Trang web của tôi
 - [🎗 Profile của tôi](https://hanari05.github.io/Hanari05/)
