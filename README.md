@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://github.com/Hanari05.png?size=240" width="115" alt="Nguyễn Ngọc Gia Hân">
-
 # ✦ HANA'S ADVENTURE LOG ✦
 
 ### Nguyễn Ngọc Gia Hân
@@ -61,25 +59,11 @@
 
 ## 📊 Adventure Stats
 
-<div align="center">
+![Thống kê GitHub của Hanari05](https://github-stats-extended.vercel.app/api?username=Hanari05&show_icons=true&hide_rank=true&bg_color=19171D&title_color=F3A8BF&text_color=F5EEE4&icon_color=97DCE9&border_color=795449)
 
-<img
-  src="https://github-stats-extended.vercel.app/api?username=Hanari05&show_icons=true&hide_rank=true&bg_color=19171D&title_color=F3A8BF&text_color=F5EEE4&icon_color=97DCE9&border_color=795449"
-  width="480"
-  alt="Thống kê hoạt động GitHub của Hanari05"
->
+![Ngôn ngữ trong repository của Hanari05](https://github-stats-extended.vercel.app/api/top-langs/?username=Hanari05&layout=compact&langs_count=8&bg_color=19171D&title_color=F3A8BF&text_color=F5EEE4&border_color=795449)
 
-<br><br>
-
-<img
-  src="https://github-stats-extended.vercel.app/api/top-langs/?username=Hanari05&layout=compact&langs_count=8&bg_color=19171D&title_color=F3A8BF&text_color=F5EEE4&border_color=795449"
-  width="400"
-  alt="Các ngôn ngữ trong repository của Hanari05"
->
-
-</div>
-
-<sub>📌 Thống kê phản ánh dữ liệu GitHub mà dịch vụ đọc được. Tỷ lệ ngôn ngữ thể hiện thành phần mã nguồn, không phải mức độ thành thạo.</sub>
+> 📌 Tỷ lệ ngôn ngữ thể hiện thành phần mã nguồn, không phải mức độ thành thạo.
 
 ## 🗺️ Side Quests
 
