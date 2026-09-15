@@ -1,43 +1,118 @@
-# 👋 Xin chào, tôi là Nguyễn Ngọc Gia Hân 
+<div align="center">
 
-## 📌 Thông tin cơ bản  
-- 🎓 Sinh viên: Công nghệ Đa phương tiện - Phát triển ứng dụng Đa phương tiện
-- 🏫 Trường: Học viện Công nghệ Bưu chính Viễn thông
-- 📧 Email: giahan1835@gmail.com
-- 📧 Email 2: n23dcpt019@student.ptithcm.edu.vn
+<img src="https://github.com/Hanari05.png?size=240" width="115" alt="Nguyễn Ngọc Gia Hân">
 
-## 🌱 Sở thích  
-- 💻 Lập trình & tìm hiểu công nghệ mới  
-- 📚 Đọc sách và học ngoại ngữ  
-- 🎮 Chơi game, đặc biệt là các game nhập vai
-- 🎵 Nghe nhạc và xem phim  
+# ✦ HANA'S ADVENTURE LOG ✦
 
-## 🚀 Kỹ năng  
-- Ngôn ngữ: C, C++, Java  
-- Web: HTML, CSS, JavaScript  
-- Công cụ:
-### [![My Skills](https://skillicons.dev/icons?i=html,css,js,cpp,github,mysql,vscode,figma)](https://skillicons.dev)
+### Nguyễn Ngọc Gia Hân
 
-## 🏆 Mục tiêu
-- Trở thành Game Designer có chuyên môn và chuyên nghiệp.
-- Có kiến thức và đóng góp vào những dự án thực tế về Game và AI.
-- Phát triển và tạo ra những dự án của riêng mình
+**Multimedia Technology · Game QA · Aspiring Game Designer**
 
-## 📂 Dự án học tập  
-- [🎧 Music Streaming Web App – Demo ứng dụng web phát nhạc / streaming nhạc](https://github.com/Hanari05/music-streaming-spec.git)
-- [🍥 Fast Food Order Demo Web – Thiết kế Demo Wesite bán hàng đồ ăn nhanh](https://github.com/Hanari05/FF-DemoWeb.git)
-- [💼 Timekeeping Project – Mini App Quản Lý Chấm Công Nhân Viên](https://github.com/Hanari05/Employee-timekeeping-App.git)
-- [🍰 Cake Store Web – Thiết kế Wesite cửa hàng đồ ngọt](https://github.com/Hanari05/Cake-store-Web.git)
-- [🤖🖥 Teachable Machine - AI nhận diện qua Webcam](https://github.com/Hanari05/Techable_Machine_Proj.git)
-- [🎛 Handpan Music Application Programming - Hệ thống quản lý files âm thanh Handpan](https://github.com/Hanari05/HandpanMusic-App.git)
-- [🚗 Ứng dụng đếm số lượng xe và phân loại phương tiện giao thông](https://github.com/Hanari05/Vehicle-identification-counting-App.git)
-- [🎨 Web vẽ hình cơ bản trên hệ trục tọa độ 2D & 3D](https://github.com/Hanari05/2D_3D-coordinate-drawing-Proj.git)
-- [💪💻🎮 Game Pixel 2D tích hợp AI trong phục hồi chức năng](https://github.com/Hanari05/-NCKH-GamePixel2D_PHCN.git)
-- [🐭🌱 Game Whack A Mole](https://github.com/Hanari05/WhackaMole_LTG.git)
-  
-## 📇 Trang web của tôi
-- [🎗 Profile của tôi](https://hanari05.github.io/Hanari05/)
+*Exploring worlds. Building experiences. Finding the unexpected.*
+
+<a href="https://hanari05.github.io/Hanari05/">
+  <img src="https://img.shields.io/badge/PORTFOLIO-F3A8BF?style=for-the-badge" alt="Portfolio">
+</a>
+<a href="mailto:giahan1835@gmail.com">
+  <img src="https://img.shields.io/badge/EMAIL-97DCE9?style=for-the-badge" alt="Email">
+</a>
+<a href="https://github.com/Hanari05?tab=repositories">
+  <img src="https://img.shields.io/badge/MY_REPOSITORIES-795449?style=for-the-badge&logo=github&logoColor=white" alt="Repositories">
+</a>
+
+</div>
 
 ---
 
-✨ *Cảm ơn đã ghé thăm trang GitHub của tôi!*  
+## 🧙 Player Profile
+
+🎓 **PTIT** · Công nghệ Đa phương tiện · Phát triển ứng dụng  
+🎮 **Định hướng:** Game QA → Game Design  
+🔍 **Quan tâm:** Gameplay, level design & player experience  
+🌙 **Ngoài giờ code:** Chơi game, đọc sách & nghe nhạc không lời  
+
+> Mình thích tìm hiểu vì sao một trò chơi cuốn hút — rồi biến những quan sát đó thành ý tưởng, prototype và những lần cải tiến.
+
+## ⚔️ Featured Quests
+
+| Quest | Trải nghiệm & đóng góp | Khám phá |
+| :--- | :--- | :--- |
+| 🌿 **Game Pixel 2D — Phục hồi chức năng** | Prototype năm màn chơi. Phụ trách front-end game, thiết kế/xây dựng map, tích hợp dữ liệu phía game và kiểm thử. | [📂 Repository](https://github.com/Hanari05/-NCKH-GamePixel2D_PHCN) |
+| 🐹 **Whack-a-Mole — Gameplay mở rộng** | Arcade với nhiều loại mục tiêu. Đề xuất cải tiến gameplay, tham gia xây dựng hệ thống ba mạng và điều chỉnh độ khó. | [🎮 Play](https://hanari05.github.io/WhackaMole_LTG/) · [📂 Code](https://github.com/Hanari05/WhackaMole_LTG) |
+| 🧪 **Employee Timekeeping** | Thực hành QA: test case, kiểm tra luồng chấm công, API, UI và ghi nhận lỗi. | [📂 Repository](https://github.com/Hanari05/Employee-timekeeping-App) |
+
+<sub>🌿 Game phục hồi chức năng đang sử dụng dữ liệu mô phỏng; chưa hoàn tất tích hợp camera/MediaPipe và chưa được xác nhận hiệu quả lâm sàng. Các dự án nhóm được mô tả theo phần đóng góp cá nhân.</sub>
+
+## 🎒 Tech Inventory
+
+*Công cụ và công nghệ mình đã sử dụng trong học tập và dự án.*
+
+**🎮 Game & Programming**
+
+<img src="https://skillicons.dev/icons?i=godot,c,cpp,java,python,js&theme=dark&perline=6" alt="Godot, C, C++, Java, Python, JavaScript">
+
+**🌐 Web & Computer Vision**
+
+<img src="https://skillicons.dev/icons?i=html,css,flask,opencv&theme=dark&perline=6" alt="HTML, CSS, Flask, OpenCV">
+
+**🛠️ Testing, Design & Collaboration**
+
+<img src="https://skillicons.dev/icons?i=postman,selenium,jest,figma,git,github&theme=dark&perline=6" alt="Postman, Selenium, Jest, Figma, Git, GitHub">
+
+## 📊 Adventure Stats
+
+<div align="center">
+
+<img
+  src="https://github-stats-extended.vercel.app/api?username=Hanari05&show_icons=true&hide_rank=true&bg_color=19171D&title_color=F3A8BF&text_color=F5EEE4&icon_color=97DCE9&border_color=795449"
+  width="480"
+  alt="Thống kê hoạt động GitHub của Hanari05"
+>
+
+<br><br>
+
+<img
+  src="https://github-stats-extended.vercel.app/api/top-langs/?username=Hanari05&layout=compact&langs_count=8&bg_color=19171D&title_color=F3A8BF&text_color=F5EEE4&border_color=795449"
+  width="400"
+  alt="Các ngôn ngữ trong repository của Hanari05"
+>
+
+</div>
+
+<sub>📌 Thống kê phản ánh dữ liệu GitHub mà dịch vụ đọc được. Tỷ lệ ngôn ngữ thể hiện thành phần mã nguồn, không phải mức độ thành thạo.</sub>
+
+## 🗺️ Side Quests
+
+<details>
+<summary><b>Mở bản đồ dự án khác ▾</b></summary>
+
+<br>
+
+| Dự án | Trọng tâm |
+| :--- | :--- |
+| 🚗 [Vehicle Identification & Counting](https://github.com/Hanari05/Vehicle-identification-counting-App) | YOLOv8 · Chuẩn bị dữ liệu · Huấn luyện mô hình |
+| 🎨 [Interactive 2D/3D Graphics](https://github.com/Hanari05/2D_3D-coordinate-drawing-Proj) | Hình học · Tọa độ · Tương tác |
+| 🎵 [Handpan Music Management](https://github.com/Hanari05/HandpanMusic-App) | C# · Quản lý file âm thanh |
+| 🍰 [Halo Sweet Bakery](https://github.com/Hanari05/Cake-store-Web) | Web · Responsive UI · User flow |
+
+[→ Xem tất cả repository](https://github.com/Hanari05?tab=repositories)
+
+</details>
+
+## 🌱 Next Level
+
+- 🎮 Hoàn thiện prototype và bổ sung video gameplay.
+- 📝 Ghi lại quyết định thiết kế và kết quả playtest.
+- 🐞 Xây dựng bộ test case & bug report cho portfolio.
+
+---
+
+<div align="center">
+
+### 💌 Let's create the next chapter.
+
+**[Khám phá Portfolio](https://hanari05.github.io/Hanari05/)** · **[Liên hệ mình](mailto:giahan1835@gmail.com)**
+
+*One small quest at a time. ✦*
+
+</div>
